@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+*{margin: 0; padding: 0; }
+body{font-family: 'Orbitron', sans-serif; }
+p a{color: inherit;}
+.logo{ width: 120px; margin:0 auto; padding:10px 0;}
+.main-banner{ background-image: url('../img/main-banner.jpg');background-position: center; background-repeat: no-repeat; text-align: center; padding:30px;}
+.main-tittle{ background: rgba(0, 0, 0, 0.5); border-radius:6px; padding: 30px; color:#fff; width: 40%; margin: 0 auto;}
+.content-text{ margin:0px 0; text-align:center;background:#b71c1c; color:#fff; }

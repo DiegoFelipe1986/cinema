@@ -1,0 +1,89 @@
+@font-face {font-family: "MyriadPro-Bold";src: url("../fonts/MyriadPro-Bold.ttf")format("truetype");}
+@font-face {font-family: "MyriadPro-BoldIt";src: url("../fonts/MyriadPro-BoldIt.ttf")format("truetype");}
+@font-face {font-family: "MyriadPro-BoldCondIt";src: url("../fonts/MyriadPro-BoldCondIt.ttf")format("truetype");}
+@font-face {font-family: "MyriadPro-CondIt";src: url("../fonts/MyriadPro-CondIt.ttf")format("truetype");}
+@font-face {font-family: "MyriadPro-BoldCond";src: url("../fonts/MyriadPro-BoldCond.ttf")format("truetype");}
+@font-face {font-family: "Avenir-Medium";src: url("../fonts/Avenir-Medium.ttf")format("truetype");}
+
+
+body{font-family: 'Avenir-Medium'!important; font-size: 30px;}
+.movilesFondo{background:url('../img/fondo.jpg'); }
+.intMov{max-width: 800px; height: auto; margin: 0 auto; }
+.red{background:url('../img/ftabla2.png'); background-size: 100% 100%; width:100%; height: 60px;}
+.fencab{background: url('../img/fondoEnca.jpg'); width:680px;height:160px; margin: 0 auto;margin-top:60px; }
+.seleccion{background:url('../img/tablag.jpg'); background-size: 100% 100%; width:680px; height: 60px; margin: 0 auto; margin-top:40px;}
+.seleccion2{background:#e6e7e8; background-size: 100% 100%; width:680px; height: 60px; margin: 0 auto; }
+.contta{width: 680px; margin: 0 auto; background: #fff; color: red !important;}
+.center{text-align: center;}
+.enviar{background: url('../img/barraNaranja.png');width: 180px; height: 50px; border: none; color:#fff; margin-top:40px; margin-bottom: 60px;font-family: 'Avenir'; font-size: 30px;}
+.enviar3{background: url('../img/barraNaranja.png');width: 180px; height: 30px; border: none; color:#fff; margin-top:40px; margin-bottom: 60px;font-family: 'Avenir'; font-size: 30px;}
+.enviar2{background: #72be42;width: 180px; height: 50px; border: none; color:#fff; margin-top:40px; margin-bottom: 60px;font-family: 'Avenir'; font-size: 30px;}
+.cancelar{background: red;width: 180px; height: 50px; border: none; color:#fff; margin-top:40px; margin-bottom: 60px;font-family: 'Avenir'; font-size: 30px;}
+.txtasn{color: #fff; font-size: 30px;text-align: center;font-family: 'MyriadPro-CondIt';font-weight: 300; text-transform: uppercase; }
+.titMo{color:#fff; font-family: 'MyriadPro-BoldIt'; font-size: 70px;font-style: italic; text-transform: uppercase;}
+.txtBus{color:#fec930; font-size: 30px;margin-left: 30px;}
+.numBus{color: #fec930;
+    font-size: 60px;
+    width: 132px;
+    margin: 0;
+    font-family: 'MyriadPro-Regular';
+    text-align: center; }
+.textmw{color:#ef5a21; font-family:'Avenir-Medium'; letter-spacing: 2px; font-size: 30px; font-weight: 300;}
+.barraNa{background: url('../img/barraNaranja.png');width: 100%; height: 45px; background-size: cover; background-repeat: no-repeat;}
+.ttad{background: url('../img/texturazul.png'); width: 100%; height: 135px; padding-top:0; background-size: cover; background-repeat: no-repeat;}
+
+.tablasect2{background: url('../img/tablasect2.png'); height: 90px; width: 100%; background-size: cover; background-repeat: no-repeat;}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table >  tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+
+    line-height: 5px;
+    vertical-align: top;
+    border-top: none !important;
+    height: 52px;
+    color:#fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+table#tabla tbody td {
+
+    vertical-align: top;
+    font-size: 30px;
+    border-top: 1px solid #ddd;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    font-family: 'Avenir-Medium'
+    vertical-align: top;
+    font-size: 40px;
+    border-top: 1px solid #ddd;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 900px;
+    line-height: 1
+}
+
+th.tdtit{font-size: 40px;height: 42px;}
+.table-striped > tbody > tr {
+  background:url('../img/ftabla1.png'); background-size: 100% 100%;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background:url('../img/ftabla2.png'); background-size: 100% 100%;
+}
+.lider{color: #fff;
+    font-size: 33px;
+    text-align: left;
+    font-family: 'MyriadPro-CondIt';
+    margin-right: 30px;
+    line-height: 45px;
+    margin-left: 20px;
+}
+
+.container-login{ width: 400px; margin:0 auto;}
+.caja{padding: 15px; display: inline-block; background: #fff; width: 100%; height: 250px; min-height: 250px; border-radius: 4px;}

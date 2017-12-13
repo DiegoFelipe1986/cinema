@@ -1,0 +1,39 @@
+@font-face {font-family: "MyriadPro-Bold";src: url("../fonts/MyriadPro-Bold.ttf")format("truetype");}
+@font-face {font-family: "MyriadPro-BoldIt";src: url("../fonts/MyriadPro-BoldIt.ttf")format("truetype");}
+@font-face {font-family: "MyriadPro-BoldCondIt";src: url("../fonts/MyriadPro-BoldCondIt.ttf")format("truetype");}
+@font-face {font-family: "MyriadPro-CondIt";src: url("../fonts/MyriadPro-CondIt.ttf")format("truetype");}
+@font-face {font-family: "MyriadPro-BoldCond";src: url("../fonts/MyriadPro-BoldCond.ttf")format("truetype");}
+@font-face {font-family: "Avenir-Medium";src: url("../fonts/Avenir-Medium.ttf")format("truetype");}
+
+
+body{font-family: 'MyriadPro-Regular'!important; font-size: 30px;}
+.movilesFondo{background:url('../img/fondo.jpg'); }
+.intMov{max-width: 800px; height: auto; margin: 0 auto; }
+.red{background:url('../img/ftabla2.png'); background-size: 100% 100%; width:100%; height: 60px;}
+.fencab{background: url('../img/fondoEnca.jpg'); width:100%;height:160px; margin: 0 auto;margin-top:60px; }
+.seleccion{background:url('../img/tablag.jpg'); background-size: 100% 100%; width:100%; height: 60px; margin: 0 auto; margin-top:40px;}
+.seleccion2{background:#e6e7e8; background-size: 100% 100%; width:100%; height: 60px; margin: 0 auto; }
+.contta{width: 100%; margin: 0 auto; background: #fff; color: red !important;}
+.center{text-align: center;}
+.enviar{background: url('../img/barraNaranja.png');width: 180px; height: 50px; border: none; color:#fff; margin-top:40px; margin-bottom: 60px;font-family: 'Avenir'; font-size: 30px;}
+.enviar3{background: url('../img/barraNaranja.png');width: 180px; height: 30px; border: none; color:#fff; margin-top:40px; margin-bottom: 60px;font-family: 'Avenir'; font-size: 30px;}
+.enviar2{background: #72be42;width: 180px; height: 50px; border: none; color:#fff; margin-top:40px; margin-bottom: 60px;font-family: 'Avenir'; font-size: 30px;}
+.cancelar{background: red;width: 180px; height: 50px; border: none; color:#fff; margin-top:40px; margin-bottom: 60px;font-family: 'Avenir'; font-size: 30px;}
+.txtasn{color: #fff; font-size: 30px;text-align: center;font-family: 'MyriadPro-CondIt';font-weight: 300; text-transform: uppercase; }
+.titMo{color:#fff; font-family: 'MyriadPro-BoldIt'; font-size: 70px;font-style: italic; text-transform: uppercase;}
+.txtBus{color:#fec930; font-size: 30px;margin-left: 30px;}
+.numBus{color: #fec930;
+    font-size: 60px;
+    width: 132px;
+    margin: 0;
+    font-family: 'MyriadPro-Regular';
+    text-align: center; }
+.textmw{color:#ef5a21; font-family:'Avenir-Medium'; letter-spacing: 2px; font-size: 30px; font-weight: 300;}
+.barraNa{background: url('../img/barraNaranja.png');width: 100%; height: 45px; background-size: cover; background-repeat: no-repeat;}
+.ttad{background: url('../img/texturazul.png'); width: 100%; height: 135px; padding-top:0; background-size: cover; background-repeat: no-repeat;}
+.ttad{background: url('../img/texturazul.png'); width: 100%; height: 135px; padding-top:0; background-size: cover; background-repeat: no-repeat;}
+.tablasect2{background: url('../img/tablasect2.png'); height: 90px; width: 100%; background-size: cover; background-repeat: no-repeat;}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table >  tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {padding: 8px;line-height: 40px;vertical-align: top;height: 63px;color:#666;}
+.alert{color:#72be42; text-align: center;font-size: 30px;}
+
+.campo{font-size: 50px; height: 60px; width: 90px; text-align: center;}
